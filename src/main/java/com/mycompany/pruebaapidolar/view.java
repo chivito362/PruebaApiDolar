@@ -151,8 +151,7 @@ public class view extends javax.swing.JFrame {
             public void run() {
                 while(true){
                     try{
-                    Thread.sleep(1000);
-                    System.out.println("Ejecucion");
+                    Thread.sleep(5000);
                     cargadatos();
                         
                     }catch(InterruptedException e){
